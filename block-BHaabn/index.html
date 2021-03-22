@@ -1,8 +1,57 @@
-<!-- 
-- Create a gallery using flexbox according to the layout shown below.
-
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
--->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Flexbox Gallery</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/style.css">
+        <script src="https://kit.fontawesome.com/ae3295e5a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+           <div class="header-box">
+            <a href="#">
+                <img class="logo" src="assets/html.png" alt="logo">
+            </a>
+            <nav>
+                <a href="#">HOME</a>
+                <a class="green" href="#">GALLERY</a>
+                <a href="#">ABOUT</a>
+            </nav>
+           </div>
+        </header>
+        <main>
+            <section class="section-gallery">
+                <h1>GALLERY</h1>
+                <div class="gallery">
+                    <div class="col">
+                        <img class="gallery-image" src="assets/01.png" alt="Paintings">
+                    </div>
+                    <div class="col">
+                        <img class="gallery-image" src="assets/02.png" alt="Paintings">
+                    </div>
+                    <div class="col">
+                        <img class="gallery-image" src="assets/03.png" alt="Paintings">
+                    </div>
+                    <div class="col">
+                        <img class="gallery-image" src="assets/04.png" alt="Paintings">
+                    </div>
+                    <div class="col">
+                        <img class="gallery-image" src="assets/05.png" alt="Paintings">
+                    </div>
+                    <div class="col">
+                        <img class="gallery-image" src="assets/06.png" alt="Paintings">
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="footer-container">
+                    <small>&copy; Rishabh Dasgupta</small>
+                    <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-square"></i></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                </div>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
