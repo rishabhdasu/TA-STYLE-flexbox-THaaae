@@ -1,8 +1,85 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Blog Dashboard</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="assets/styles/style.css">
+        <script src="https://kit.fontawesome.com/ae3295e5a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container flex">
+                    <img class="logo" src="assets/png/html.png" alt="logo">
+                <nav class="nav-bar flex">
+                    <a href="#">
+                        <img src="assets/icons/bell.svg" alt="Bell Icon">
+                    </a>
+                    <a href="#">
+                        <span class="span">Sarah Jone</span>
+                        <img class="icon" src="assets/icons/user.svg" alt="User Icon">
+                    </a>
+                </nav>
+            </div>
+        </header>
 
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+        <main>
+            <div class="container flex">
+                <aside>
+                    <div class="aside">
+                        <nav class="aside-nav flex direction">
+                            <a href="#">
+                                <img class="icon" src="assets/icons/dashboard.svg" alt="Dashboard">
+                                <span class="side-span">Dashboard</span>
+                            </a>
+                            <a href="#">
+                                <img class="icon" src="assets/icons/article.svg" alt="Articles">
+                                <span  class="side-span">Articles</span>
+                            </a>
+                            <a href="#">
+                                <img class="icon" src="assets/icons/analytics.svg" alt="Analytics">
+                                <span  class="side-span">Analytics</span>    
+                            </a>
+                            <a href="#">
+                                <img class="icon" src="assets/icons/inbox.svg" alt="Inbox">
+                                <span  class="side-span">Inbox</span>    
+                            </a>
+                            <a href="#">
+                                <img class="icon side-icon" src="assets/icons/setting.svg" alt="Settings">
+                                <span  class="side-span">Settings</span>    
+                            </a>
+                        </nav>
+                        <div class="button">
+                            <img class="icon side-icon" src="assets/icons/log-out.svg" alt="logout">
+                            <span  class="side-span">Logout</span>
+                        </div>
+                    </div>
+                </aside>
+                <section>
+                    <div class="article-container">
+                        <img class="article-image" src="assets/png/01.png" alt="Article Image">
+                        <h1>Why are we doing AltCampus?</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, repellendus earum? Doloremque dolorum laborum
+                             earum quo nihil officiis quibusdam architecto debitis quod vitae iusto, harum, beatae explicabo veniam.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aperiam incidunt nulla laboriosam dicta assumenda 
+                            dolores obcaecati illum nobis odit, minus tempora neque illo fuga deleniti culpa ipsum quasi mollitia.
+                        </p>
+                       <div class="read-more">
+                        <a href="#">Read More</a>
+                       </div>
+                    </div>
+                </section>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <small>&copy; Rishabh Dasgupta</small>
+                <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-square"></i></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </div>
+            </div>
+        </footer>
+               
+        </main>
+    </body>
+</html>
